@@ -16,6 +16,6 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
       - name: publish
         if: github.actor == 'francisfuzz'
-        run: npm publish -ddd --access public --tag commit result
+        run: npm publish -ddd --access public --tag commit version
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
