@@ -6,12 +6,12 @@
   "module": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wereHamster/computation.git"
+    "url": "git://github.com/francisfuzz/computation.git"
   },
   "author": "Tomas Carnecky <tomas.carnecky@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wereHamster/computation/issues"
+    "url": "https://github.com/francisfuzz/computation/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
